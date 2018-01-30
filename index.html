@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简易聊天室</title>
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+<div class="chat-name">网页聊天室</div>
+<div class="chat-box">
+    <div class="show-box">
+        <div class="msg-box">
+            <p class="nickname">管理员<span>很多年前</span></p>
+            <p class="msg">欢迎来到聊天室...</p>
+        </div>
+    </div>
+    <div class="send-box">
+        <p><textarea name="msg" id="msg" cols="30" rows="10"></textarea></p>
+        <p>
+            <button class="send-btn">发布信息(ctrl+enter)</button>
+        </p>
+    </div>
+</div>
+<div class="nick-input">
+    <p>
+        <span>请输入您的昵称:</span>
+        <input type="text" id="nick">
+        <button class="start-btn">开始进入聊天室</button>
+    </p>
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.7.1/jquery.min.js"></script>
+<script src="last.php"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>
